@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.nav-bar {
+    background-color: #007bff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar a.active {
+    text-decoration: underline;
+    font-weight: bold;
+    background-color: #0056b3;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center; /* Alt başlıkları ve butonları ortalar */
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Butonları yatayda ortalar */
+    margin-top: 10px;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 15px 20px; /* Buton boyutunu artırmak için padding artırıldı */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    font-size: 16px; /* Yazı boyutu artırıldı */
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    width: 100%; /* Buton genişliği artırıldı */
+    max-width: 320px; /* Maksimum genişlik ayarlandı */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.button-group {
+    margin-top: 10px;
+}
+
+.button-group button {
+    margin-right: 5px;
+}
